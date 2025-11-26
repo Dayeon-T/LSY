@@ -12,7 +12,6 @@ import JavaIcon from "../assets/Java-Dark.svg";
 import JavaScriptIcon from "../assets/JavaScript.svg";
 import PythonIcon from "../assets/Python-Light.svg";
 import ReactLightIcon from "../assets/React-Light.svg";
-import ReactNativeIcon from "../assets/React.svg";
 import SupabaseIcon from "../assets/Supabase-Dark.svg";
 import ViteIcon from "../assets/Vite-Light.svg";
 import IllustratorIcon from "../assets/Illustrator.svg";
@@ -26,7 +25,6 @@ const skills = [
   { name: "CSS", icon: CSSIcon, category: "프론트엔드" },
   { name: "JavaScript", icon: JavaScriptIcon, category: "프론트엔드" },
   { name: "React", icon: ReactLightIcon, category: "프론트엔드" },
-  { name: "React Native", icon: ReactNativeIcon, category: "프론트엔드" },
   { name: "Vite", icon: ViteIcon, category: "프론트엔드" },
 
   // 백엔드

@@ -1,4 +1,4 @@
-.career-section {
+/*.career-section {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
@@ -6,9 +6,9 @@
   padding-bottom: 120px;
   font-family: "Gothic A1", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
-}
+}*/
 
-/* 상단 타이틀 영역 */
+/* 상단 타이틀 영역 *//*
 .career-header {
   display: flex;
   align-items: baseline;
@@ -33,14 +33,14 @@
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-/* 전체 리스트 래퍼 (타임라인 느낌) */
+/* 전체 리스트 래퍼 (타임라인 느낌) *//*
 .career-list {
   margin-top: 48px;
   display: flex;
   flex-direction: column;
 }
 
-/* 각 항목 한 줄 */
+/* 각 항목 한 줄 *//*
 .career-item {
   display: grid;
   grid-template-columns: 160px 1fr;
@@ -53,19 +53,19 @@
   border-top: none;
 }
 
-/* 왼쪽 기간 */
+/* 왼쪽 기간 *//*
 .career-period {
   font-size: 18px;
   font-weight: 600;
   color: #333;
 }
 
-/* 오른쪽 내용 */
+/* 오른쪽 내용 *//*
 .career-content {
   position: relative;
 }
 
-/* 제목 + 파란 하이라이트 */
+/* 제목 + 파란 하이라이트 *//*
 .career-title {
   display: inline-block;
   position: relative;
@@ -83,12 +83,12 @@
   right: -6px;
   bottom: 2px;
   height: 14px;
-  background: var(--accent-light); /* PPT에서 쓰인 느낌의 파란 형광펜 */
+  background: var(--accent-light); /* PPT에서 쓰인 느낌의 파란 형광펜 *//*
   z-index: -1;
   border-radius: 4px;
 }
 
-/* 부제 & 설명 */
+/* 부제 & 설명 *//*
 .career-subtitle {
   margin: 4px 0;
   font-size: 16px;
@@ -103,7 +103,7 @@
   color: rgba(34, 34, 34, 0.75);
 }
 
-/* 반응형 - 화면 줄어들 때 그리드 깨지지 않게 */
+/* 반응형 - 화면 줄어들 때 그리드 깨지지 않게 *//*
 @media (max-width: 768px) {
   .career-section {
     padding-inline: 20px;
@@ -118,4 +118,4 @@
     font-size: 16px;
     color: rgba(34, 34, 34, 0.7);
   }
-}
+}*/

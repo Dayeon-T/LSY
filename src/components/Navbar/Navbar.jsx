@@ -43,16 +43,16 @@ function Navbar() {
         </a>
       </div>
 
-      {/* 하단 네비바
+      {/* 하단 네비바 */}
       <div className="nav-row nav-bottom">
         <a href="#education" className="nav-item small">
           교육 및 자격증
         </a>
 
-        <a href="#footer" className="nav-item small">
+        {/* <a href="#footer" className="nav-item small">
           마무리
-        </a>
-      </div> */}
+        </a> */}
+      </div>
     </nav>
   );
 }

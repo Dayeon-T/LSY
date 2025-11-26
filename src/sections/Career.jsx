@@ -30,8 +30,6 @@ const careerData = [
       "SDGs 중 ‘양질의 교육’과 ‘불평등 해소’를 주제로, 교육 접근성이 낮은 지역을 위한 온라인 교육 플랫폼을 기획·제작하며 개발의 사회적 역할을 고민한 의미 있는 프로젝트였습니다.",
   },
 
-  /* --------------------------- AI · 교육 과정 --------------------------- */
-
   {
     period: "2025.04 - 07",
     title: "AI 지니어스 과정 수료",
@@ -117,7 +115,7 @@ const careerData = [
     title: "동아리 발표회",
     subtitle: "7개월간 준비한 맛집 추천 웹사이트 프로젝트 발표",
     description:
-      "React + Supabase 기반 우리만의 맛집을 공유하는 웹사이트를 완성하여 발표. 지도 기반 검색, 영수증 인증 리뷰, 랜덤 추천 기능을 포함한 실전형 프로젝트였습니다.",
+      "React + Supabase 기반 우리만의 맛집을 공유하는 웹사이트를 완성하여 발표. 지도 기반 검색을 포함한 실전형 프로젝트였습니다.",
   }
 ];
 
@@ -127,8 +125,7 @@ export default function Career() {
   return (
     <section className="career-section" id="career">
       <div className="career-header">
-        <div className="career-heading-en">Education &amp; Certifications</div>
-        <div className="career-heading-ko">경력 및 경험</div>
+        <div className="career-heading-ko">경력</div>
       </div>
 
       <hr className="career-divider" />

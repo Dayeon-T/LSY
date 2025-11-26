@@ -20,6 +20,8 @@ function Navbar() {
         >
           기술
         </a>
+
+
         <a
           href="#career"
           className={active === "career" ? "nav-item active" : "nav-item"}
@@ -27,6 +29,8 @@ function Navbar() {
         >
           경력
         </a>
+
+
         <a
           href="#projects"
           className={active === "projects" ? "nav-item active" : "nav-item"}
@@ -34,6 +38,16 @@ function Navbar() {
         >
           프로젝트
         </a>
+
+        <a
+          href="#education"
+          className={active === "education" ? "nav-item active" : "nav-item"}
+          onClick={() => setActive("education")}
+        >
+          교육 및 자격증
+        </a>
+
+
         <a
           href="#velog"
           className={active === "velog" ? "nav-item active" : "nav-item"}
@@ -41,17 +55,8 @@ function Navbar() {
         >
           블로그
         </a>
-      </div>
 
-      {/* 하단 네비바 */}
-      <div className="nav-row nav-bottom">
-        <a href="#education" className="nav-item small">
-          교육 및 자격증
-        </a>
 
-        {/* <a href="#footer" className="nav-item small">
-          마무리
-        </a> */}
       </div>
     </nav>
   );

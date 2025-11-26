@@ -125,10 +125,14 @@ export default function Career() {
   return (
     <section className="career-section" id="career">
       <div className="career-header">
-        <div className="career-heading-ko">경력</div>
+        <h1 className="career-title">경력</h1>
       </div>
+      <p>
+        다양한 경험과 프로젝트를 통해<br />
+        매일매일 조금씩 성장하고 있습니다.
+      </p>
+      <hr></hr>
 
-      <hr className="career-divider" />
 
       <div className="career-list">
         {careerData.map((item, index) => (

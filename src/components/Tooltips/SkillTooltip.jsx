@@ -8,6 +8,7 @@ function SkillTooltip({ id = "skill-tooltip", placement = "bottom" }) {
       place={placement}
       offset={0}
       opacity={1}
+      style={{ background: "transparent", border: "none", padding: 0, boxShadow: "none" }}
       render={({ content }) => (
         <div className="skill-tooltip__shell">
           <div className="skill-tooltip__glow" />

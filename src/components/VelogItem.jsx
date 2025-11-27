@@ -7,9 +7,10 @@ export default function VelogItem({
   period, // 날짜
   image, // 썸네일
   url, // 벨로그 원문 링크
+  className, // 추가 클래스(애니메이션 등)
 }) {
   return (
-    <article className="project-card">
+    <article className={`project-card${className ? " " + className : ""}`}>
       <a
         href={url}
         target="_blank"

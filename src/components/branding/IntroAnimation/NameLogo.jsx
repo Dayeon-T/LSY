@@ -6,7 +6,7 @@ const NameLogo = () => {
   return (
     <div className="logo-row">
       {/* 왼쪽 동그라미 */}
-      <div className="icon icon-1">
+      <div className="logo-icon icon-1">
         <div className="icon-inner">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ const NameLogo = () => {
       </div>
 
       {/* 가운데 V 모양 */}
-      <div className="icon icon-2">
+      <div className="logo-icon icon-2">
         <div className="icon-inner">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const NameLogo = () => {
       </div>
 
       {/* 오른쪽 동그라미 */}
-      <div className="icon icon-3">
+      <div className="logo-icon icon-3">
         <div className="icon-inner">
           <svg
             xmlns="http://www.w3.org/2000/svg"

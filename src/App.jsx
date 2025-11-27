@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/layout/Navbar/Navbar";
 import Intro from "./sections/Intro";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
@@ -6,8 +6,7 @@ import Career from "./sections/Career";
 import Education from "./sections/Education";
 import Velog from "./sections/Velog";
 import Footer from "./sections/Footer";
-import "./styles/global.css";
-import NameLogo from "./components/IntroAnimation/NameLogo";
+import "./styles/base/global.css";
 
 function App() {
   return (
@@ -25,7 +24,7 @@ function App() {
       <section id="career">
         <Career />
       </section>
-      
+
       <section id="projects">
         <Projects />
       </section>

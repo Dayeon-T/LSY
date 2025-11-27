@@ -1,8 +1,8 @@
 import profileImg from "../assets/이서영 초성.png";
-import "./Intro.css";
-import "../styles/global.css";
-import "../styles/colorToken.css";
-import NameLogo from "../components/IntroAnimation/NameLogo";
+import "../styles/sections/Intro.css";
+import "../styles/base/global.css";
+import "../styles/base/colorToken.css";
+import NameLogo from "../components/branding/IntroAnimation/NameLogo";
 
 export default function Intro() {
   return (

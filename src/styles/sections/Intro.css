@@ -23,20 +23,23 @@
 /* 텍스트 묶음 */
 .intro-text h1 {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: "Gosan", "KakaoSmallFont", sans-serif;
   margin: 5px 0;
 }
 
 .intro-text h2 {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: "Gosan", "KakaoSmallFont", sans-serif;
   margin: 5px 0;
 }
 
 /* 이름 강조 */
 .intro-name {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: "Gosan", "KakaoSmallFont", sans-serif;
   color: var(--primary);
   margin: 15px 0 5px 0;
 }
@@ -51,7 +54,8 @@
 
 .intro-end {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: "Gosan", "KakaoSmallFont", sans-serif;
   margin-bottom: 8px;
   margin-top: 0px;
 }

@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import lsy from "../../assets/이서영 초성.png";
+import lsy from "../../../assets/이서영 초성.png";
 
 import { act, useState } from "react";
 function Navbar() {
@@ -21,15 +21,13 @@ function Navbar() {
           기술
         </a>
 
-
         <a
           href="#career"
           className={active === "career" ? "nav-item active" : "nav-item"}
           onClick={() => setActive("career")}
         >
-          경력
+          수상 및 활동
         </a>
-
 
         <a
           href="#projects"
@@ -44,9 +42,8 @@ function Navbar() {
           className={active === "education" ? "nav-item active" : "nav-item"}
           onClick={() => setActive("education")}
         >
-          교육 및 자격증
+          자격증
         </a>
-
 
         <a
           href="#velog"
@@ -55,8 +52,6 @@ function Navbar() {
         >
           블로그
         </a>
-
-
       </div>
     </nav>
   );

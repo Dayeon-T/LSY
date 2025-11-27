@@ -1,7 +1,6 @@
 import { useState } from "react";
-import "./Skills.css";
-import { Tooltip } from "react-tooltip";
-import SkillTooltip from "../components/Tooltips/SkillTooltip";
+import "../styles/sections/Skills.css";
+import SkillTooltip from "../components/feedback/Tooltips/SkillTooltip";
 
 import CIcon from "../assets/C.svg";
 import CSSIcon from "../assets/CSS.svg";

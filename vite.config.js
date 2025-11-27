@@ -5,7 +5,7 @@ import svgr from "@svgr/rollup";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [svgr(), react()],
-  base: "/website_portfolio/",
+  base: "/LSY/",
   server: {
     proxy: {
       "/api/velog/rss": {
